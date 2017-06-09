@@ -1,14 +1,16 @@
 .about-section{
   font-family: 'Noto Sans KR', sans-serif;
   background-size:contain;
-  height:600px;
+  height:450px;
   background-repeat:no-repeat;
   background-position:center;
-  background-color:#16AD5D;
+  background-color:$brand-color;
   color:#ffffff;
   text-align:center;
-  padding-top:90px;
+  padding-top:30px;
   h3{
+    font-family: 'Hanna', serif;
+    font-size:30px;
     margin:30px;
   }
   p{
@@ -16,4 +18,22 @@
     font-size:16px;
     line-height:25px;
   }
+  @media (max-width: $screen-xs-max) {
+    height:600px !important;
+  }
 }
+.custom-btn{
+  box-shadow:5px 5px 0px $brand-color;
+  background-color:$brand-color-yellow;
+  color:#ffffff;
+  font-weight:500;
+  margin:30px 10px;
+  font-size:17px;
+  outline:none;
+  border:0px;
+  padding:10px 20px;
+  @media (max-width: $screen-xs-max) {
+    margin:10px 0px !important;
+  }
+}
+

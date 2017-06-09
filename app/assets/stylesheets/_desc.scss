@@ -1,5 +1,5 @@
 .desc-section{
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans KR', serif;
   height:600px;
   background-size:contain;
   background-position:center;
@@ -10,16 +10,31 @@
     letter-spacing:-0.02em;
     font-size:25px;
   }
+  .row{
+    margin-bottom:20px;
+  }
   p{
     margin-top:6px;
-    font-size:16px;
+    font-size:15px;
     line-height:28px;
-    color:$sub-color;
+    color:#797979;
+    font-weight:300;
+    letter-spacing:-0.05em;
     span.small-border{
       font-size:12px;
     }
     span.small-title{
       font-weight:bold;
     }
+  }
+  .visible-xs-space{
+    display:none;
+  }
+  @media (max-width: $screen-xs-max) {
+    padding-top:0px !important;
+    background-image:none !important;
+    height:1000px !important;
+    row{ margin-bottom:0px !important;}
+    .visible-xs-space{ display:inline; }
   }
 }

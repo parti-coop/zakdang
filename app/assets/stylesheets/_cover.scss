@@ -1,17 +1,29 @@
 .cover-section{
   text-align:center;
-  height:900px;
+  height:600px;
   background-size:cover;
-  padding-top:200px;
+  padding-top:50px;
   h1{
     color:$brand-color;
-    font-size:70px;
-    font-family: 'Nanum Myeongjo', serif;
+    font-size:82px;
+    font-family: 'Hanna', serif;
     font-weight:600;
     line-height:90px;
+    span{
+      color:$sub-color;
+    }
   }
   h3{
-    color:$brand-color;
-    font-weight:200;
+    color:#656565;
+    font-family:'Noto Sans KR', serif;
+    font-weight:600;
+    font-size:15px;
+    letter-spacing:0.2em;
+  }
+  @media (max-width: $screen-xs-max) {
+    height:650px !important;
+    padding-top:70px !important;
+    background-image:none !important;
+    background-color:#eeeeee !important;
   }
 }
