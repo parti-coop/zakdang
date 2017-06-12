@@ -34,6 +34,10 @@
   .visible-xs-space{
     display:none;
   }
+  .text-important{
+    color:$brand-color;
+    font-weight:500;
+  }
   @media (max-width: $screen-xs-max) {
     padding-top:20px !important;
     background-image:none !important;
@@ -41,4 +45,5 @@
     .row{ margin-bottom:0px !important;}
     .visible-xs-space{ display:inline; }
   }
+
 }
