@@ -4,10 +4,18 @@
     %meta{:charset => "utf-8"}
     %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
     %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no", :name => "viewport"}
-    %meta{:property => "og:url", :content => "http://zakdang.parti.do"}
+    %meta{:property => "og:url", :content => "http://zakdang.kr"}
+    %meta{:property => "og:site_name", :content => "시민작당 모의대회"}
+    %meta{:property => "og:title", :content => "시민작당 모의대회"}
+    %meta{:property => "og:image", :content => "http://zakdang.kr/seo.png"}
+    %meta{:property => "og:description", :content => "7월 8일 서울 광장에서 나만의 작당을 시작해 보세요."}
+    %meta{:name => "image", :content => "http://zakdang.kr/seo.png"}
+
     %title 시민작당 모의대회
 
     /favicons
+    %link{href: asset_url("favicons/zakdang_favicon.png"), rel: "icon", sizes: "32x32", type: "image/png"}
+    %link{href: asset_url("favicons/zakdang_favicon.png"), rel: "icon", sizes: "16x16", type: "image/png"}
 
     = stylesheet_link_tag 'application', media: 'all'
     %link{href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel: "stylesheet"}
