@@ -20,9 +20,12 @@
     letter-spacing:0.2em;
   }
   @media (max-width: $screen-xs-max) {
-    height:650px !important;
+    height:600px !important;
     padding-top:70px !important;
-    background-image:none !important;
-    background-color:#eeeeee !important;
+    background-image:url('mobile_bg.png') !important;
+    background-color:#ffffff !important;
+    background-size:contain !important;
+    background-repeat:no-repeat;
+    background-position:center;
   }
 }
